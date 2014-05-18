@@ -1,0 +1,38 @@
+----------------------------------------------
+Unnamed "Take a break"-styled Extension v0.0.1
+----------------------------------------------
+
+- Firefox/GreaseMonkey Extension as well as Python script.
+
+- Inspired by RSIBreak for KDE.
+
+- Annoys you with a prompt every 2 minutes, and keeps pestering you unless you just let go.
+
+----------------------------------------------
+STATUS : 
+----------------------------------------------
+
+- GreaseMonkey Script : fails
+
+- Firefox .xpi extension : fails
+
+- HTML page with inline JS : works <---------|
+
+- Python script : incomplete
+
+----------------------------------------------
+ISSUES :
+----------------------------------------------
+
+- GreaseMonkey script and Firefox extension give
+"Error : Illegal operation on WrappedNative prototype object". Need to use something other than window.prompt(), I guess.
+
+- Python script's prompt can be ignored via [Win]/[Super] + [D]. Something needs to be done about that.
+
+----------------------------------------------
+CHANGELOG:
+----------------------------------------------
+
+v0.0.1 - Started project
+
+v0.0.2 - Removed inane functions and lines
